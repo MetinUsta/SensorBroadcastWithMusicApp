@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_baseline_chevron.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.1925" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_more_vert.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_repeat_off.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_repeat_on.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_shuffle_off.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_shuffle_on.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_skip_next.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/ic_skip_previous.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/main_background.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/drawable/tab_indicator.xml" value="0.268" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/activity_log_in.xml" value="0.2" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/activity_main2.xml" value="0.290625" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/activity_music_player.xml" value="0.18" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/fragment_first.xml" value="0.290625" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/fragment_playlists.xml" value="0.290625" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/fragment_second.xml" value="0.290625" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/fragment_songs.xml" value="0.25" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/music_item.xml" value="0.25" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/playlist_music_item.xml" value="0.290625" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/layout/spinner_item.xml" value="0.290625" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/menu/music_menu_popup.xml" value="0.1" />
+        <entry key="..\:/Users/Metin/AndroidStudioProjects/MusicPlayerV2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

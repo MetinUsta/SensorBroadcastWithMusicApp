@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/songs_fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongsFragment">
+
+    <RelativeLayout
+        android:id="@+id/selection_panel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/playListText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Playlist:"
+            android:textColor="@color/colorAccent"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/playListText"
+            android:background="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/selection_panel"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/songs_fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongsFragment">
+
+    <RelativeLayout
+        android:id="@+id/selection_panel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/playListText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Playlist:"
+            android:textColor="@color/colorAccent"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/playlist_input_box"
+            android:textColorHint="@color/black"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/playListText"
+            app:hintEnabled="false"
+            app:boxStrokeColor="@color/textinputlayout_color"
+            android:layout_marginLeft="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Playlist Name"
+                android:textSize="15sp"
+                android:textColor="@color/colorAccent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/save_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/playlist_input_box"
+            android:src="@drawable/ic_baseline_save_24" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/selection_panel"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>
